@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+__pycache__/
+
+# Secret files
+.env
+*.sqlite3
+settings.py (if it contains sensitive data)
+
+# Compiled files
+*.pyc
+*.pyo
+*.log
+
+# Static files (if using collectstatic for production)
+staticfiles/
+media/
